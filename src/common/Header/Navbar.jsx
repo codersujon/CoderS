@@ -1,5 +1,6 @@
 import React from 'react'
 import MenuList from "../../data/MenuList.json";
+import { NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -10,7 +11,7 @@ const Navbar = () => {
                     const { title, href, className } = menu;
                     return (
                         <li key={index}>
-                            <a href={href} className={className}>{title}</a>
+                            <NavLink to={href} className={className}>{title}</NavLink>
                         </li>
                     )
                 }
