@@ -3,8 +3,6 @@ import SectionTitle from '../SectionTitle/SectionTitle'
 import ServiceOffer from './ServiceOffer'
 import Data from '../../data/Services.json';
 
-console.log(Data);
-
 export class Index extends Component {
 
     render() {

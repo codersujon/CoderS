@@ -1,5 +1,5 @@
 //MAIN COMPONENTS
-import Header from './components/Header/Index';
+import Header from './common/Header/Header';
 import Slider from './components/Slider/Index';
 import About from './components/About/Index';
 import Services from './components/Services/Index';
