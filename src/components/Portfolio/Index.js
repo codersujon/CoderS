@@ -1,11 +1,8 @@
 import React, { Component } from 'react'
-//CHILD COMPONENTS IMPORT
 import SectionTitle from '../SectionTitle/SectionTitle'
 import PortfolioMenu from './PortfolioMenu'
 import PortfolioItem from './PortfolioItem'
-
-// IMPORT JSON DATA
-import Portf from '../../jsonFiles/Portfolio.json';
+import Portf from '../../data/Portfolio.json';
 
 
 export class Index extends Component {

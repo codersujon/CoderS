@@ -1,6 +1,6 @@
 import React from 'react'
 import NavbarList from "./NavbarList";
-import MenuList from "../../jsonFiles/MenuList";
+import MenuList from "../../data/MenuList.json";
 
 
 const Navbar = () => {

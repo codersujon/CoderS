@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
 import SectionTitle from '../SectionTitle/SectionTitle'
 import ServiceOffer from './ServiceOffer'
-
-// IMPORT JSON DATA
-import Data from '../../jsonFiles/Services.json';
+import Data from '../../data/Services.json';
 
 console.log(Data);
 
