@@ -1,27 +1,18 @@
-//MAIN COMPONENTS
+import React from 'react';
 import Header from './common/Header/Header';
-import Slider from './components/Slider/Index';
-import About from './components/About/Index';
-import Services from './components/Services/Index';
-import Portfolio from './components/Portfolio/Index';
-import Footer from './components/Footer/Index';
-import Download from './components/Download/Index';
-
-//BOOTSTRAP CSS FRAMEWORK
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-
+import Pages from './pages/Pages';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Slider />
-      <About />
-      <Services />
-      <Portfolio />
-      <Download />
-      <Footer />
-    </div>
+    <>
+      <Router>
+          <Header />
+          <Routes>
+             <Route exact path="/" element={<Pages/>}/>
+          </Routes>
+      </Router>
+    </>
   );
 }
 

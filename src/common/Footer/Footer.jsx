@@ -14,7 +14,6 @@ export class Index extends Component {
         //FOR LATEST YEAR
         const date = new Date();
         const currentYear = date.getFullYear();
-        //Destructuring
         const {siteName, myName } = this.state;
         return (
             <footer className="footer-area pt-10 pb-10 secondary-bg">

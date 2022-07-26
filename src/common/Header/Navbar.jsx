@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="col-xl-8">
             <ul className="main-menu">
                 {MenuList.map((menu, index) => {
-                    const {title, href, className } = menu;
+                    const { title, href, className } = menu;
                     return (
                         <li key={index}>
                             <a href={href} className={className}>{title}</a>

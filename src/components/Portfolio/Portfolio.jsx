@@ -5,7 +5,7 @@ import PortfolioItem from './PortfolioItem'
 import Portf from '../../data/Portfolio.json';
 
 
-export class Index extends Component {
+export class Portfolio extends Component {
     render() {
         
         let portfolioItem = [];
@@ -34,4 +34,4 @@ export class Index extends Component {
     }
 }
 
-export default Index;
+export default Portfolio;

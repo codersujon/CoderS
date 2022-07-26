@@ -1,43 +1,43 @@
 [
     {
         "key": 1,
-        "href": "#header",
+        "href": "home",
         "title": "home",
         "className": "current"
     },
     {
         "key": 2,
-        "href": "#about",
+        "href": "about",
         "title": "about"
     },
     {
         "key": 3,
-        "href": "#services",
+        "href": "services",
         "title": "services"
     },
     {
         "key": 4,
-        "href": "#portfolio",
+        "href": "portfolio",
         "title": "portfolio"
     },
     {
         "key": 5,
-        "href": "#client",
+        "href": "client",
         "title": "client"
     },
     {
         "key": 6,
-        "href": "#pricing",
+        "href": "pricing",
         "title": "pricing"
     },
     {
         "key": 7,
-        "href": "#blog",
+        "href": "blog",
         "title": "blog"
     },
     {
         "key": 8,
-        "href": "#contact",
+        "href": "contact",
         "title": "get in touch"
     }
 ]

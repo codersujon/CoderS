@@ -4,7 +4,7 @@ const Logo = () => {
     return (
         <div className="col-xl-2">
             <div className="logo">
-                <a href="index.html">
+                <a href="/">
                     <img src="assets/images/logo.png" alt="logo" />
                 </a>
             </div>

@@ -7,7 +7,7 @@ import BannerImg from './BannerImg';
 //IMAGES IMPORT
 import sliderBg1 from '../../assets/images/slider/slider-bg.jpg';
 
-class Index extends Component {
+class Slider extends Component {
     render() {
         return (
             <section className="banner-area" id="banner">
@@ -24,4 +24,4 @@ class Index extends Component {
     }
 }
 
-export default Index;
+export default Slider;
