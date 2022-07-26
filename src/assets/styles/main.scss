@@ -1,0 +1,21 @@
+// IMPORT ABSTRACTS
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+@import "./abstracts/overlay";
+
+//IMPORT BASE
+@import "./base/base";
+
+//IMPORT COMPONENTS
+@import "./components/header";
+@import "./components/slider";
+@import "./components/sectionTitle";
+@import "./components/buttons";
+@import "./components/about";
+@import "./components/services";
+@import "./components/portfolio";
+@import "./components/footer";
+
+//IMPORT LAYOUT
+
+//IMPORT UTILS

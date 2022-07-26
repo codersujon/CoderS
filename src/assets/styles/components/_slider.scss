@@ -1,0 +1,45 @@
+.banner {
+    height: 1050px;
+}
+
+.banner__content {
+    >span {
+        font-size: 60px;
+        font-weight: 300;
+    }
+
+    & h1 {
+        font-size: 50px;
+        font-weight: 300;
+        line-height: 64px;
+
+        span {
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+
+    & h2 {
+        font-size: 38px;
+        font-weight: 300;
+
+        & span {
+            color: $white;
+            background: $heading-color;
+            display: inline-block;
+            font-weight: 600;
+        }
+    }
+
+    &-btn {
+        & a {
+            display: inline-block;
+        }
+    }
+}
+
+.banner__content,
+.banner__img {
+    z-index: 3;
+    position: relative;
+}

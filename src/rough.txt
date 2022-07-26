@@ -1,0 +1,23 @@
+
+/*Inline Image Import From SRC*/
+============================
+    //Import Image
+    Step-1: import Project__bg1 from '../../assets/images/portfolio/Project__bg-1.png';
+    //Deploy to the specific content
+    Step-2: style={{backgroundImage: `url(${Project__bg1})`}}
+
+/*Images apply from SRC Files*/
+============================
+    => src={require('../images/logo.png').default}
+
+    /*CSS Image Apply from SRC*/
+============================
+
+    => background-image: url('./images/bg.jpg');
+
+
+/*SCSS Image Apply*/
+============================
+    Setp-1: background-image: url("../../assets/images/portfolio/Project__bg-1.png");
+
+

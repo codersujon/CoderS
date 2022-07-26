@@ -1,0 +1,74 @@
+.aboutMenu {
+    text-align: right;
+
+    & ul {
+        & li {
+            display: inline-block;
+            margin-right: 30px;
+
+            & a {
+                display: block;
+                font-size: 17px;
+                text-transform: capitalize;
+                transition: .3s ease-out;
+                font-weight: 600;
+                color: $heading-color;
+                text-decoration: none;
+
+                &:hover {
+                    color: $theme-color;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.about {
+    &__content {
+        & h2 {
+            font-size: 40px;
+            font-weight: 300;
+            margin-bottom: 15px;
+
+            & span {
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+        }
+
+        & h3 {
+            font-weight: 600;
+        }
+
+        & hr {
+            margin: 30px 0;
+        }
+
+        & p {
+            text-align: justify;
+            font-weight: 500;
+        }
+
+        &-personalInfo {
+            & .info-item {
+                display: inline-block;
+                width: 45%;
+                margin-right: 30px;
+
+                & p {
+                    padding: 15px 0;
+                    border-bottom: 1px dashed $hr-border-color;
+                    margin: 0;
+
+                    & span {
+                        font-weight: 700;
+                        width: 90px;
+                        display: inline-block
+                    }
+                }
+            }
+        }
+    }
+
+}

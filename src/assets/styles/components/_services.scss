@@ -1,0 +1,80 @@
+.serviceOffer {
+    min-height: 450px;
+    position: relative;
+    padding: 40px 30px;
+    border-radius: 5px;
+
+    @include boxShadow;
+
+    &::after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 4px;
+        background: $theme-color;
+        transition: .4s;
+        left: 0;
+        bottom: 0px;
+        right: 0;
+        border-radius: 50px;
+        transform: scale(0);
+        transform-origin: left right;
+        visibility: hidden;
+    }
+
+    &:hover {
+        cursor: pointer;
+        & span {
+            transform: scale(2);
+            color: $theme-color;
+        }
+
+        &::after {
+            visibility: visible;
+            transform: scale(1);
+        }
+
+        & h3 {
+            text-decoration: underline;
+        }
+        & .serviceOffer__content-icon{
+            transition: .4s;
+            transform: scale(1.2);
+        }
+    }
+
+
+
+    &__content {
+        position: relative;
+
+        & span {
+            position: absolute;
+            display: inline-block;
+            font-size: 25px;
+            font-weight: 600;
+            color: $secondary-color;
+            top: -15px;
+            right: 15px;
+            transition: .4s;
+            transform: scale(1);
+            transform-origin: top right;
+        }
+
+        &-icon {
+            text-align: center;
+
+            & img {
+                width: 110px;
+                height: 110px;
+                margin-bottom: 40px;
+            }
+        }
+
+        & h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+    }
+}

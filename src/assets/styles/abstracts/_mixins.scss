@@ -1,0 +1,38 @@
+@mixin transition($time) {
+    -webkit-transition: all $time ease-out 0s;
+    -moz-transition: all $time ease-out 0s;
+    -ms-transition: all $time ease-out 0s;
+    -o-transition: all $time ease-out 0s;
+    transition: all $time ease-out 0s;
+}
+
+@mixin transform($value) {
+    -webkit-transform: $value;
+    -ms-transform: $value;
+    transform: $value;
+}
+
+@mixin boxShadow() {
+    -webkit-box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    -ms-box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    -o-box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+@mixin boxShadowBtn {
+    -webkit-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+    -ms-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6)
+}
+
+@mixin projectBg {
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 28rem;
+    transition: all 4s linear;
+    cursor: pointer;
+}

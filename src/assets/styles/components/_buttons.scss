@@ -1,0 +1,89 @@
+.coder-btn {
+    color: $white;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 8px 20px;
+    transition: .3s ease-in-out;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.dark-btn {
+    background-color: $theme-color;
+
+    &:hover {
+        background-color: $heading-color;
+        color: $white;
+        border-color: $heading-color;
+    }
+}
+
+.theme-btn {
+    background-color: $theme-color;
+
+    &:hover {
+        background-color: $white;
+        color: $theme-color;
+        border-color: $white;
+    }
+}
+
+.lg-btn {
+    padding: 12px 25px;
+}
+.big-btn{
+    padding: 20px 50px;
+}
+.play-btn {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: $theme-color;
+    border: 1px solid transparent;
+    background: $theme-color;
+    display: inline-block;
+    color: $white;
+    @include boxShadowBtn;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+
+    &:after {
+        position: absolute;
+        content: 'Play Video';
+        font-weight: 700;
+        color: $heading-color;
+        text-transform: uppercase;
+        width: 170px;
+        letter-spacing: 1px;
+    }
+
+    &:hover {
+        background-color: $heading-color;
+        color: $white;
+        border-color: $heading-color;
+    }
+}
+
+.portfolio-menu {
+    & button {
+        padding: 6px 20px;
+        border: 1px solid $theme-color;
+        background: transparent;
+        margin: 10px 5px;
+        transition: .4s all ease-in-out;
+        border-radius: 50px;
+        font-weight: 600;
+
+        &:hover, 
+        &:focus,
+        &.active {
+            background-color: $secondary-color;
+            border-color: $secondary-color;
+            color: $white;
+        }
+    }
+}
