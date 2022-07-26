@@ -5,9 +5,7 @@ import { FaLink, FaPlay, FaEye } from "react-icons/fa";
 
 class PortfolioItem extends Component {
     render() {
-        //Destructuring
         const { itemName, livePreview, playBtn, projectBack } = this.props;
-        // project__bg-1
         return (
             <div className="col-xl-4">
                 <div className="portfolioItem text-center mb-30">

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import SectionTitle from '../SectionTitle/SectionTitle'
+import SectionTitle from '../../common/SectionTitle/SectionTitle';
 import AboutMenu from './AboutMenu';
 import AboutImg from './AboutImg';
 import AboutContent from './AboutContent';

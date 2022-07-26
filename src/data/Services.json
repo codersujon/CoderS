@@ -1,37 +1,37 @@
 [
     {
         "no": "01",
-        "serviceImg": "./assets/images/icons/devices.svg",
+        "serviceImg": "assets/images/icons/devices.svg",
         "serviceTitle": "Responsive Website Design",
         "serviceContent": "I can design any kind of website/landing page in creative, modern or any way that you want. It will looks good on every devices includng mobile, tablet, laptop and desktop. You will get a SEO friendly and fast loading website."
     },
     {
         "no": "02",
-        "serviceImg": "./assets/images/icons/web-development.svg",
+        "serviceImg": "assets/images/icons/web-development.svg",
         "serviceTitle": "Website Development",
         "serviceContent": "I have developed many projects in using PHP and PHP based CMS (WordPress). I am expert in WordPress CMS, Woocommerce & WordPress Theme Customization and Plugins."
     },
     {
         "no": "03",
-        "serviceImg": "./assets/images/icons/psd-to-html.svg",
+        "serviceImg": "assets/images/icons/psd-to-html.svg",
         "serviceTitle": "Conversion To HTML",
         "serviceContent": "I will convert any design files (PSD, Sketch, Ai, XD, Figma) to HTML. 100% optimised and pixel perfect design with fully responsive. Also including awesome hover effects, paralax and animation effects."
     },
     {
         "no": "04",
-        "serviceImg": "./assets/images/icons/online.svg",
+        "serviceImg": "assets/images/icons/online.svg",
         "serviceTitle": "Woo-Commerce Website Creation",
         "serviceContent": "You will get all eCommerce website Solution in one place. eCommerce website, Multi-Vendor eCommerce website Woo-commerce & all supported plugins."
     },
     {
         "no": "05",
-        "serviceImg": "./assets/images/icons/email.svg",
+        "serviceImg": "assets/images/icons/email.svg",
         "serviceTitle": "Responsive Email Template Design",
         "serviceContent": "I will make Professional & Attractive Email Signature. It will Works with all major email clients (Gmail, yahoo, Hotmail, Outlook, Apple Mail) and much more."
     },
     {
         "no": "06",
-        "serviceImg": "./assets/images/icons/speed-test.svg",
+        "serviceImg": "assets/images/icons/speed-test.svg",
         "serviceTitle": "Speed Boosting And Bug Fixing",
         "serviceContent": "I will optimize your wordpress website or HTML website and ensure faster loding. Your website will load in less than 5s. I will fix your HTML CSS bugs."
     }

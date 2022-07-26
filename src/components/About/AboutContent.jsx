@@ -60,7 +60,7 @@ class AboutContent extends Component {
                         <a href="#download" className="coder-btn dark-btn lg-btn mr-30">
                             <FaCloudDownloadAlt/> Download CV
                         </a>
-                        <a href="#HireMe" className="coder-btn dark-btn lg-btn"> 
+                        <a href="https://www.fiverr.com/sujon_world" className="coder-btn dark-btn lg-btn"> 
                             <FaSmile/> Hire Me 
                         </a>
                     </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import SectionTitle from '../SectionTitle/SectionTitle'
+import SectionTitle from '../../common/SectionTitle/SectionTitle';
 import Data from '../../data/Services.json';
 import ServiceOffer from '../Services/ServiceOffer';
 
