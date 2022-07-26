@@ -7,7 +7,6 @@ import Portf from '../../data/Portfolio.json';
 
 export class Portfolio extends Component {
     render() {
-        let portfolioItem = [];
         return (
             <section className="portfolio-area pt-120 pb-90" id="portfolio">
                 <div className="container">
@@ -17,7 +16,7 @@ export class Portfolio extends Component {
                     <PortfolioMenu />
                     <div className="row">
                         {
-                            portfolioItem = Portf.map((item, index) => {
+                            Portf.map((item, index) => {
                                 const { itemName, livePreview, playBtn, projectBack } = item;
                                 return (
                                     <PortfolioItem

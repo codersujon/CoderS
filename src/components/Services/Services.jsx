@@ -6,7 +6,6 @@ import ServiceOffer from '../Services/ServiceOffer';
 export class Index extends Component {
 
     render() {
-        let serviceItem = [];
         return (
             <section className="services-area pt-120 pb-90 bg-light" id="services">
                 <div className="servicesItem">
@@ -16,7 +15,7 @@ export class Index extends Component {
                         />
                         <div className="row">
                             {
-                                serviceItem = Data.map((item, index) => {
+                                Data.map((item, index) => {
                                     return (
                                         <ServiceOffer
                                             key={index}
