@@ -4,7 +4,7 @@ const PortfolioMenu = () => {
     return(
         <div className="row">
             <div className="portfolio-menu text-center mb-80" >
-                <button type="button" class="active" data-filter="all">All</button>
+                <button type="button" className="active" data-filter="all">All</button>
                 <button type="button" data-filter=".lPage">Landing Page</button>
                 <button type="button" data-filter=".mPage">Multiple Page</button>
                 <button type="button" data-filter=".eTempt">Email Template</button>

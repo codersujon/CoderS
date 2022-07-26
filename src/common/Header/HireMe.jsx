@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaSmile } from "react-icons/fa";
 
 const HireMe = () => {
     const title = "hire me"; //Declarative Programming state
@@ -7,7 +6,7 @@ const HireMe = () => {
         <div className="col-xl-2">
             <div className="header-btn">
                 <a href="#hireMe" className="coder-btn theme-btn">
-                    <FaSmile /> {title}
+                     <i className="fa-solid fa-face-smile"></i> {title}
                 </a>
             </div>
         </div>

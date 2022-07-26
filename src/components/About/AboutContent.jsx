@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-//REACT-ICONS IMPORT
-import { FaSmile, FaCloudDownloadAlt } from "react-icons/fa";
 
 class AboutContent extends Component {
 
@@ -58,10 +56,10 @@ class AboutContent extends Component {
                     </div>
                     <div className="about__content-btn">
                         <a href="#download" className="coder-btn dark-btn lg-btn mr-30">
-                            <FaCloudDownloadAlt/> Download CV
+                             <i className="fa-solid fa-cloud-arrow-down"></i> Download CV
                         </a>
                         <a href="https://www.fiverr.com/sujon_world" className="coder-btn dark-btn lg-btn"> 
-                            <FaSmile/> Hire Me 
+                             <i className="fa-solid fa-face-smile"></i> Hire Me 
                         </a>
                     </div>
                 </div>									

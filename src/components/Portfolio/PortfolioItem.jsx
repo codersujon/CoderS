@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-//REACT-ICONS IMPORT
-import { FaLink, FaPlay, FaEye } from "react-icons/fa";
 
 
 class PortfolioItem extends Component {
@@ -9,15 +7,15 @@ class PortfolioItem extends Component {
         return (
             <div className="col-xl-4">
                 <div className="portfolioItem text-center mb-30">
-                    <div className="portfolioItem__img" style={{backgroundImage: `url(${projectBack})`}}>
+                    <div className="portfolioItem__img" style={{ backgroundImage: `url(${projectBack})` }}>
                         <div className="portfolioItem__img-overlay">
                             <div className="portfolioItem__img-overlay-icon">
                                 <h4>{itemName}</h4>
                                 <a href={livePreview} target="_blank" rel="noreferrer">
-                                    <FaEye/>
+                                    <i className="fa-solid fa-eye"></i>
                                 </a>
                                 <a href={playBtn} target="_blank" rel="noreferrer">
-                                    <FaPlay/>
+                                    <i className="fa-solid fa-play"></i>
                                 </a>
                             </div>
                         </div>
@@ -26,7 +24,7 @@ class PortfolioItem extends Component {
                         <h4>{itemName}</h4>
                         <div className="portfolioItem__info-link ">
                             <a href={livePreview} target="_blank" rel="noreferrer">
-                                <FaLink/>
+                                <i className="fa-solid fa-link"></i>
                             </a>
                         </div>
                     </div>

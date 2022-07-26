@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 // TYPEWRITER
 import Typewriter from 'typewriter-effect';
-//REACT-ICONS IMPORT
-import { FaPlay, FaBorderAll } from "react-icons/fa";
 
 class BannerContent extends Component {
 
@@ -41,8 +39,12 @@ class BannerContent extends Component {
                         </span>
                         </h2>
                         <div className="banner__content-btn mt-40">
-                            <a href="#download" className="coder-btn dark-btn lg-btn mr-30"><FaBorderAll /> View Portfolio</a>
-                            <a href="#play" className="play-btn dark-btn"><FaPlay /></a>
+                            <a href="portfolio" className="coder-btn dark-btn lg-btn mr-30">
+                                <i className="fa-solid fa-border-all"></i> View Portfolio
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=KItCFl5GgdI" className="play-btn dark-btn">
+                                <i className="fa-solid fa-play"></i>
+                            </a>
                         </div>
                     </div>
                 </div>

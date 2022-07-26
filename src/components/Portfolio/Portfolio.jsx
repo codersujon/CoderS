@@ -30,7 +30,7 @@ export class Portfolio extends Component {
                             })
                         }
                         <div className="loadMoreService text-center pt-50">
-                            <a href="services.html" className="coder-btn dark-btn big-btn">More Website</a>
+                            <a href="services" className="coder-btn dark-btn big-btn">More Website</a>
                         </div>
                     </div>
                 </div>
