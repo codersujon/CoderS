@@ -6,7 +6,7 @@ import { FaPlay, FaBorderAll } from "react-icons/fa";
 
 class BannerContent extends Component {
 
-    constructor(){
+    constructor() {
         super()
         this.state = {
             myName: "Md. Sujon Ahmed",
@@ -23,30 +23,28 @@ class BannerContent extends Component {
                         <span>Hello,</span>
                         <h1>I am <span>{myName}</span></h1>
                         <h2>Professional <span>
-                            <Typewriter 
+                            <Typewriter
                                 options={{
                                     autoStart: true,
                                     loop: true,
                                     delay: 40,
-                                    strings:[
+                                    strings: [
                                         "Software Engineer",
                                         "JavaScript Developer",
                                         "Front-End-Developer",
                                         "React-Developer",
-                                        "Content Writer",
                                         "Graphics Designer",
                                         "YouTuber",
-                                        "Blogger",
                                     ]
                                 }}
                             />
-                            </span>
+                        </span>
                         </h2>
                         <div className="banner__content-btn mt-40">
-                            <a href="#download" className="coder-btn dark-btn lg-btn mr-30"><FaBorderAll/> View Portfolio</a>
-                            <a href="#play" className="play-btn dark-btn"><FaPlay/></a>
+                            <a href="#download" className="coder-btn dark-btn lg-btn mr-30"><FaBorderAll /> View Portfolio</a>
+                            <a href="#play" className="play-btn dark-btn"><FaPlay /></a>
                         </div>
-                    </div> 
+                    </div>
                 </div>
             </div>
 
